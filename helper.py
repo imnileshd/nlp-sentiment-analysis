@@ -1,10 +1,15 @@
 # helper functions
 
 import string
+import nltk
 from nltk import pos_tag
 from nltk.corpus import wordnet
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
+
+# download nltk dependencies
+for dependency in ("stopwords", "brown", "names", "wordnet", "averaged_perceptron_tagger", "universal_tagset"):
+    nltk.download(dependency)
 
 # return the wordnet object value corresponding to the POS tag
 def get_wordnet_pos(pos_tag):

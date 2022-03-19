@@ -5,12 +5,7 @@ from load_css import local_css
 import plotly.express as px
 import plotly.graph_objects as go
 
-import nltk
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
-# nltk dependencies
-for dependency in ("brown", "names", "wordnet", "averaged_perceptron_tagger", "universal_tagset"):
-    nltk.download(dependency)
-
 
 APP_NAME = "Sentiment Analysis!"
 
