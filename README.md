@@ -214,7 +214,9 @@ To put it all together, I have developed an interactive app using [Streamlit](ht
 
 Now that we have created our data app, and ready to share it! We can use [Streamlit Cloud](https://streamlit.io/cloud) to deploy and share our app. Streamlit Cloud has multiple tiers, the free Community tier is the perfect solution if your app is hosted in a public GitHub repo and you'd like anyone in the world to be able to access it.
 
-You can check steps to deploy apps with the free Community tier [here.](https://docs.streamlit.io/en/stable/deploy_streamlit_app.html).
+You can check steps to deploy apps with the free Community tier [here](https://docs.streamlit.io/en/stable/deploy_streamlit_app.html).
+
+Now my app is live and you can interact with it [here](https://share.streamlit.io/imnileshd/nlp-sentiment-analysis).
 
 ## Conclusion
 
