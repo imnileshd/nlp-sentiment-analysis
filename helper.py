@@ -8,7 +8,7 @@ from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 
 # download nltk dependencies
-for dependency in ("stopwords", "brown", "names", "wordnet", "averaged_perceptron_tagger", "universal_tagset"):
+for dependency in ("omw-1.4", "stopwords", "brown", "names", "wordnet", "averaged_perceptron_tagger", "universal_tagset"):
     nltk.download(dependency)
 
 # return the wordnet object value corresponding to the POS tag
