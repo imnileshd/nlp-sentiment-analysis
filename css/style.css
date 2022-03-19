@@ -1,0 +1,19 @@
+.highlight {
+  border-radius: 0.4rem;
+  color: black;
+  /* padding: 0.5rem;
+  margin-bottom: 1rem; */
+}
+.bold {
+  padding-left: 1rem;
+  font-weight: 700;
+}
+.neutral {
+  background-color: navajowhite;
+}
+.negative {
+  background-color: firebrick;
+}
+.positive {
+  background-color: lightgreen;
+}
