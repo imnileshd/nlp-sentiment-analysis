@@ -53,6 +53,7 @@ Thumbs.db
 *.app
 *.exe
 *.war
+*.bat
 
 # Large model files
 *.sav
